@@ -45,7 +45,6 @@ get '/' do
             text: "lunchtime! ;)"
         }]
     }
-    puts @finstagram_post_shark
 
     @finstagram_posts = [@finstagram_post_shark, @finstagram_post_whale, @finstagram_post_marlin]
 
